@@ -12,12 +12,23 @@ void print(vector vec_a) {
 	printf("]");
 }
 
+
+vector add(vector vec_a, vector vec_b){
+	veclib vec_c;
+	int i;
+	for( i=0;i<DIM;i++)
+		vec_c[i]=vec_a[i]+vec_b[i];
+	return vec_c;
+}
+
+
 int main() {
 	vector vecA, vecB, vecC;
 	// read vectors vecA, vecB as input
 
+	vecC= add(vecA,vecB);
 	printf("Printing vector sum\n");
-	add(vecA,vecB,&vecC);
+	print(vecC);
 	
 	// print and display other outputs
 	// product, difference, dot product, angle
