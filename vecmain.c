@@ -22,6 +22,7 @@ scanf("%f",&vec_a[i]);
 int main() {
 	vector vecA, vecB;
 	float* vecC;
+	float theta;
 	// read vectors vecA, vecB as input
 	/*for(int i=0;i<DIM;i++)
 	scanf("%f",&vecA[i]);
@@ -38,7 +39,9 @@ int main() {
 	vecC= eleProd(vecA,vecB);
 	printf("Printing elementwise product of vectors\n");
 	print(vecC);
-	
+
+	theta = vectorangle(vecA,vecB);
+	printf("Angle between the two vectors is %f radians.\n",theta);
 	// print and display other outputs
 	// product, difference, dot product, angle
 
