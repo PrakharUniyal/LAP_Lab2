@@ -1,10 +1,10 @@
 
 #include "veclib.h"
 
-float theta;
 //Function to add two vectors
 float vectorangle(vector vec_a, vector vec_b)
 {
+    float theta;
     vector vector_zero = {0.0,0.0,0.0,0.0};
     
     float dotprod = vectordotprod(vec_a,vec_b);
