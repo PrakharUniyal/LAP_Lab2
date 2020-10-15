@@ -34,6 +34,14 @@ float* vectordiff(vector vec_a, vector vec_b);
 
 // dot product
 float vectordotprod(vector vec_a, vector vec_b);
+
+
+// norm of two vectors
+float vectornorm(vector vec_a, vector vec_b);
+
+
+// angle between two vectors
+float vectorangle(vector vec_a, vector vec_b);
 // add other functions as needed
 
 #endif
