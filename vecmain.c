@@ -12,18 +12,24 @@ void print(vector vec_a) {
 	printf("]");
 	printf("\n");
 }
-
+void readvec(float* vec_a)
+{
+for(int i=0;i<DIM;i++)
+scanf("%f",&vec_a[i]);
+}
 
 
 int main() {
-	vector vecA, vecB,vec_c;
+	vector vecA, vecB;
 	float* vecC;
 	// read vectors vecA, vecB as input
-	for(int i=0;i<DIM;i++)
+	/*for(int i=0;i<DIM;i++)
 	scanf("%f",&vecA[i]);
 	
 	for(int i=0;i<DIM;i++)
-	scanf("%f",&vecB[i]);
+	scanf("%f",&vecB[i]);*/
+	readvec(vecA);
+	readvec(vecB);
 	
 	vecC= add(vecA,vecB);
 	printf("Printing vector sum\n");
