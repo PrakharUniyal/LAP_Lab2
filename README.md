@@ -12,3 +12,6 @@ https://github.com/Ruchika06/CS308-Sept-2020-Git-Lab-1
 ## Prakhar Uniyal (B18128): 
 https://github.com/PrakharUniyal/CS308-Fall-2020
 
+## Muskan Gupta (b18019):
+https://github.com/muskangupta27/muskangupta27-CS308-Sept-2020-Git-Lab-1
+
