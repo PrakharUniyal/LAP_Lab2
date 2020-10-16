@@ -1,7 +1,7 @@
 #include "veclib.h"
 #include <math.h>
 // Adding two given vectors
-float norm(vector vec_a,vector vec_b){
+float vectornorm(vector vec_a,vector vec_b){
 	
 	float norm_ = 0.0;
 

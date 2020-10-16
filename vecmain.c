@@ -40,7 +40,7 @@ int main() {
 	printf("Printing elementwise product of vectors\n");
 	print(vecC);
 	
-	float norm=norm(vecA,vecB)
+	float norm=vectornorm(vecA,vecB)
 	printf("Norm between the two vectors is %f\n",theta);
 	
 	float dot=vectordotprod(vecA, vecB);
