@@ -39,12 +39,17 @@ int main() {
 	vecC= eleProd(vecA,vecB);
 	printf("Printing elementwise product of vectors\n");
 	print(vecC);
-
+	
+	float norm=norm(vecA,vecB)
+	printf("Norm between the two vectors is %f\n",theta);
+	
+	float dot=vectordotprod(vecA, vecB);
+	printf("Dot product of vectors is %f\n",dot);
+	
 	theta = vectorangle(vecA,vecB);
 	printf("Angle between the two vectors is %f radians.\n",theta);
 
-	float norm=norm(vecA,vecB)
-	printf("Norm between the two vectors is %f\n",theta);
+
 
 	// print and display other outputs
 	// product, difference, dot product, angle
