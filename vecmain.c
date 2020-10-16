@@ -42,6 +42,10 @@ int main() {
 
 	theta = vectorangle(vecA,vecB);
 	printf("Angle between the two vectors is %f radians.\n",theta);
+
+	float norm=norm(vecA,vecB)
+	printf("Norm between the two vectors is %f\n",theta);
+
 	// print and display other outputs
 	// product, difference, dot product, angle
 
