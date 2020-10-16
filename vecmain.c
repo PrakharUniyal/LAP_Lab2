@@ -41,7 +41,7 @@ int main() {
 	print(vecC);
 	
 	float norm=vectornorm(vecA,vecB)
-	printf("Norm between the two vectors is %f\n",theta);
+	printf("Norm between the two vectors is %f\n",norm);
 	
 	float dot=vectordotprod(vecA, vecB);
 	printf("Dot product of vectors is %f\n",dot);
